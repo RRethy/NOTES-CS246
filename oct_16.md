@@ -139,7 +139,7 @@ Node &Node::operator=(const Node &newN) {
   // If this line fails, no lines after this will be run
   n = newN.next ? new Node(*newN.next) : nullptr;
 
-  data newN.data;
+  data = newN.data;
   delete tmp; // delaying the deleting to see if the above line fails
   return *this;
 }
