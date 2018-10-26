@@ -203,7 +203,7 @@ Node::Node(const Node &other) :
 
 // Correct: has base case
 Node::Node(const Node &other) :
-  data{other.data}, next{other.next ? Node{*other.next} : nullptr} {
+  data{other.data}, next{other.next ? new Node{*other.next} : nullptr} {
 }
 ```
 

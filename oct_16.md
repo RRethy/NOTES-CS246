@@ -21,7 +21,7 @@ string s{"Hello"}; // Same as above
 ```
 
 * One parameter constructors create implicit/automatic conversions
-* Disallow the single parameter conversion, use the `explicite` keyword:
+* Disallow the single parameter conversion, use the `explicit` keyword:
 
 ```cpp
 struct Node {
