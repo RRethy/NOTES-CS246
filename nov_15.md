@@ -181,7 +181,7 @@ class Catalog : public BookVisitor {
     void visit(Text &b) {
       ++cat[b.getTopic()];
     }
-    void visit(Text &b) {
+    void visit(Comic &b) {
       ++cat[b.getHero()];
     }
 };
