@@ -9,7 +9,7 @@ class C {
 
   void f() {
     a.method1(); // strong guarantee
-    b.method2(); // strong guarantee
+    b.method2(); // no strong guarantee
   }
 };
 ```
