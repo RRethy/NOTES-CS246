@@ -1,6 +1,6 @@
 # Shell Scripts
 
-* **Scrip** - a test file containing a sequence of commands executed as a program
+* **Script** - a test file containing a sequence of commands executed as a program
 
 > Assume we have a shell script named basic
 
