@@ -60,7 +60,7 @@ Book *bp2{&t2};
 ```cpp
 class Book {
   public:
-    virtual Book &opeator=(const Book &other);
+    virtual Book &operator=(const Book &other);
 };
 
 class Book {
