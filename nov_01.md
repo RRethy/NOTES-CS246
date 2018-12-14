@@ -237,7 +237,7 @@ class Stack {
     * The type would be `int` in the above class
 
 ```cpp
-// A non generic Stack class
+// A generic Stack class
 template <typename T>
 class Stack {
   int count;
