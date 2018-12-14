@@ -63,7 +63,7 @@ class Book {
     virtual Book &operator=(const Book &other);
 };
 
-class Book {
+class Text : public Book  {
   public:
     Text &opeator=(const Book &other) override {
       const Text &temp = dynamic_cast<const Text &>(other);
