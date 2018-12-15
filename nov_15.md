@@ -144,7 +144,7 @@ class Book {
 
 class Text : public Book {
   public:
-    void accpet(BookVisitor &v) override {
+    void accept(BookVisitor &v) override {
       v.visit(*this);
     }
 };
